@@ -15,3 +15,5 @@ The kitchen is in the canteen. It is enterable.
 
 The kitchen table is in the kitchen. The kitchen table is fixed in place. "There's a kitchen table. It's made of some kind of metal."
 On the kitchen table is a coffee machine. The description of the coffee machine is "An efficient mechanism for converting ground coffee and water into The Black Drink." The coffee machine is a privately-named thing. Understand "coffee machine" or "machine" as the coffee machine.
+
+Test me with "enter kitchen / examine machine".
