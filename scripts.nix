@@ -103,6 +103,6 @@ cp scaffolding/game.inform/Build/output.ulx "$output"
 #
 # Run an .ulx file.
 
-exec ${pkgs.inform7}/libexec/dumb-glulxe "$@"
+exec ${pkgs.rlwrap}/bin/rlwrap ${pkgs.inform7}/libexec/dumb-glulxe "$@"
 '';
 }
