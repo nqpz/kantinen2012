@@ -7,4 +7,6 @@ A room called South of the Canteen is south of the Canteen.
 
 There is a student in the canteen. "A student is seen drinking coffee." The student carries a cup. In the cup is coffee.
 
-The kitchen is in the canteen. The kitchen is fixed in place. On the kitchen is a coffee machine.
+The kitchen is in the canteen. It is enterable.
+
+The kitchen table is in the kitchen. The kitchen table is fixed in place. On the kitchen table is a coffee machine.
