@@ -12,6 +12,8 @@ In the mug is coffee. The description of coffee is "Not great coffee, by the sme
 A supporter called the outer surface is part of the mug. On the outer surface is a logo. The description of the logo is "It looks like someone designed this logo in a corporate fever dream. Wild geometric shapes tamed into greyness. You assume this is the logo of a generic IT company.".
 
 The student carries a laptop computer. The laptop is a device. It is switched on. The description of the laptop is "[if switched on]Some kind of Linux is running on it.[otherwise]The screen is black."
+Instead of switching off the computer:
+    say "The student doesn't let you close enough to do that."
 
 The kitchen is in the canteen. It is enterable.
 
