@@ -12,8 +12,14 @@ In the mug is coffee. The description of coffee is "Not great coffee, by the sme
 A supporter called the outer surface is part of the mug. On the outer surface is a logo. The description of the logo is "It looks like someone designed this logo in a corporate fever dream. Wild geometric shapes tamed into greyness. You assume this is the logo of a generic IT company.".
 
 The student carries a laptop computer. The laptop is a device. It is switched on. The description of the laptop is "[if switched on]Some kind of Linux is running on it.[otherwise]The screen is black."
-Instead of switching off the computer:
-    say "The student doesn't let you close enough to do that."
+Work status is a kind of value. Work statuses are working hard and hardly working.
+The student has a work status. The student is working hard.
+Instead of switching off the computer when the student is working hard:
+    say "The student is currently struggling with Standard ML. Maybe you can help?"
+The player carries help.
+Instead of giving help to student:
+    now the student is hardly working;
+    say "The student is thankful for your help. He finishes his work."
 
 The kitchen is in the canteen. It is enterable.
 
