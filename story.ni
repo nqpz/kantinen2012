@@ -5,7 +5,7 @@ The Canteen is a room. "This is a place both for studying and relaxing."
 A room called North of the Canteen is north of the Canteen.
 A room called South of the Canteen is south of the Canteen.
 
-There is a student in the canteen. "A student is seen drinking coffee from a mug, looking intently at his laptop computer."
+There is a student in the canteen. "A student is seen drinking coffee from a mug, looking intently at his laptop computer. Its fans emit a high-pitched scream. You wish they wouldn't."
 The description of the student is "Based on the unkempt laptop in front of him, a computer science student."
 The student carries a mug. The description of the mug is "There's a logo on the outer surface."
 In the mug is coffee. The description of coffee is "Not great coffee, by the smell of it."
