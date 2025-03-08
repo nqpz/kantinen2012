@@ -20,11 +20,11 @@ To build and run this story, first install [Nix](https://nixos.org/).
 Then run `nix-shell` to enter an environment with Inform 7 tooling
 present.  This is useful for when developing the game.
 
-Here, run `make test.ulx` to build a test build, or `make release.ulx`
-to build a release build, both in the [Glulx
+Here, run `make bin/test.ulx` to build a test build, or `make
+bin/release.ulx` to build a release build, both in the [Glulx
 format](https://www.eblong.com/zarf/glulx/).
 
-Run `inform7-run test.ulx`, or just `make test`, to run the test
+Run `inform7-run bin/test.ulx`, or just `make test`, to run the test
 build. Run `inform7-run release.ulx` to run the release build. (The test
 build has additional helper commands such as
 [`SHOWME`](https://ganelson.github.io/inform-website/book/WI_2_7.html).)
