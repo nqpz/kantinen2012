@@ -1,21 +1,17 @@
 # Use this file with nix-build or similar tools; see https://nixos.org/
 let
   sources = import ./nix/sources.nix;
+  pkgs = import sources.nixpkgs { };
+  scaffolding = import sources.inform7-scaffolding pkgs;
 in
-with (import sources.nixpkgs { });
-with (import sources.inform7-scaffolding pkgs);
 
-stdenv.mkDerivation {
+pkgs.stdenv.mkDerivation {
   pname = "kantinen2012";
   version = "v0.1";
 
   src = ./.;
 
-  buildInputs = [
-    inform7-create-scaffolding
-    inform7-compile
-    util-linux
-  ];
+  buildInputs = scaffolding.buildInputs;
 
   buildPhase = ''
     make clean release.ulx
