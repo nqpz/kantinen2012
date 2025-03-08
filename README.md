@@ -15,34 +15,13 @@ This is my first attempt at creating a small game in [Inform
 
 ## Building and running
 
-To build and run this story, first install [Nix](https://nixos.org/).
+1. Install [Nix](https://nixos.org/).
+2. Run `nix-shell`.
+3. Run `make test`.
 
-Then run `nix-shell` to enter an environment with Inform 7 tooling
-present.  This is useful for when developing the game.
-
-Here, run `make bin/test.ulx` to build a test build, or `make
-bin/release.ulx` to build a release build, both in the [Glulx
-format](https://www.eblong.com/zarf/glulx/).
-
-Run `inform7-run bin/test.ulx`, or just `make test`, to run the test
-build. Run `inform7-run release.ulx` to run the release build. (The test
-build has additional helper commands such as
-[`SHOWME`](https://ganelson.github.io/inform-website/book/WI_2_7.html).)
-
-You can also run `nix-build` to build a release build.  This will build
-`release.ulx` and make it available as `result/kantinen2012.ulx`.  This
-is useful if you only need to build it, and not actively develop it.
-
-(Alternatively, if you can't install Nix, you can follow the [Inform 7
-manual on how to use its
-GUIs](https://ganelson.github.io/inform-website/book/WI_1_3.html) and
-manually import `story.ni` into the story window, and then build and run
-from there.)
-
-
-## External resources
-
-  - [Emacs package on MELPA](https://melpa.org/#/inform7)
+Please see the [Building and running section on
+inform7-scaffolding](https://github.com/nqpz/inform7-scaffolding?tab=readme-ov-file#building-and-running)
+for more options.
 
 
 ## License
