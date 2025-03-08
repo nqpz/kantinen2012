@@ -1,6 +1,9 @@
 # Use this file with nix-build or similar tools; see https://nixos.org/
-with import <nixpkgs> {};
-with (import ./scripts.nix pkgs);
+let
+  sources = import ./nix/sources.nix;
+in
+with (import sources.nixpkgs { });
+with (import sources.inform7-scaffolding pkgs);
 
 stdenv.mkDerivation {
   pname = "kantinen2012";
