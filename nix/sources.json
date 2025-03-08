@@ -5,10 +5,10 @@
         "homepage": null,
         "owner": "nqpz",
         "repo": "inform7-scaffolding",
-        "rev": "81d4d506f6f66f1c371fb7c1656353940c6894fe",
-        "sha256": "1gpd2jzy280f7by151clx2cbxil1vzl0kh0kjk608fdjg0z4h6b4",
+        "rev": "f5df18ec7ed5066e4729533613f127875cd67ebe",
+        "sha256": "0ycxvgybqbxkayxhd88ndgyglmblkza0s0zp800dqpfmciia3qv6",
         "type": "tarball",
-        "url": "https://github.com/nqpz/inform7-scaffolding/archive/81d4d506f6f66f1c371fb7c1656353940c6894fe.tar.gz",
+        "url": "https://github.com/nqpz/inform7-scaffolding/archive/f5df18ec7ed5066e4729533613f127875cd67ebe.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {

@@ -4,21 +4,4 @@ let
   pkgs = import sources.nixpkgs { };
   scaffolding = import sources.inform7-scaffolding pkgs;
 in
-
-pkgs.stdenv.mkDerivation {
-  pname = "kantinen2012";
-  version = "v0.1";
-
-  src = ./.;
-
-  buildInputs = scaffolding.buildInputs;
-
-  buildPhase = ''
-    make clean release.ulx
-  '';
-
-  installPhase = ''
-    mkdir $out
-    cp release.ulx $out/kantinen2012.ulx
-  '';
-}
+scaffolding.mkDerivation ./. "kantinen2012" "v0.1"
